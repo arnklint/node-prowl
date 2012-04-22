@@ -61,7 +61,7 @@ for tests.
 Test by installing mocha and should.js (dev dependencies) and then just
 hit:
 
-PROWL_KEY=[my key here] make
+	PROWL_KEY=[my key here] make
 
 And voila, it autotests for you.
 
