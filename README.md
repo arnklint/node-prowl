@@ -8,7 +8,7 @@ As of now this API supports push and only push.
 
 ## Installation
 
-	npm install prowl
+	npm install node-prowl
 
 or put it in your package.json as usual and hit npm install. It depends
 on xml2js and request.
