@@ -1,4 +1,4 @@
-# Prowl Node.js API
+# node-prowl - Prowl for Node.js API
 
 Be happy! Send push notifications to iDevices (iPad, iPhone etc) that
 has the [Prowl iPhone app](http://www.prowlapp.com/) installed. Simple,
