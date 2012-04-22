@@ -20,11 +20,31 @@ The API requires your API-key, which could be found or created on the
 
 Initialize it with your key and start pushing!
 
-	var prowl = new Prowl('MY-API-KEY');
-	prowl.push('YO, this is awesomez!', 'My app', function( err, remaining ){
-		if( err ) throw err;
-		console.log( 'I have ' + remaining + ' calls to the api during current hour. BOOM!' );
-	});
+```javascript
+var prowl = new Prowl('MY-API-KEY');
+```
+
+Now, use the prowl object whenever sending a push:
+
+```javascript
+prowl.push('YO, this is awesomez!', 'My app', function( err, remaining ){
+	if( err ) throw err;
+	console.log( 'I have ' + remaining + ' calls to the api during current hour. BOOM!' );
+});
+```
+
+You can provide more [options](http://www.prowlapp.com/api.php#add) to the PUSH notification:
+
+```javascript
+prowl.push('YO, this is awesomez!', 'My app', {
+	providerkey: 'my-provider-key',
+	priority: 2,
+	url: 'http://revrise.com'
+}, function( err, remaining ){
+	if( err ) throw err;
+	console.log( 'I have ' + remaining + ' calls to the api during current hour. BOOM!' );
+});
+```
 
 ## Contribute
 
@@ -44,3 +64,6 @@ hit:
 PROWL_KEY=[my key here] make
 
 And voila, it autotests for you.
+
+Happily written during a four hour hack in my
+[apt](http://starksignal.se/wp-content/uploads/2012/01/office-chamonix.jpg) in Chamonix, France.
