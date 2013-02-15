@@ -22,5 +22,6 @@
   },
   "bugs" : {
     "url" : "https://github.com/arnklint/node-prowl/issues"
-  }
+  },
+  "main": "./lib/prowl"
 }
