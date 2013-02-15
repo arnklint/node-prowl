@@ -67,3 +67,12 @@ And voila, it autotests for you.
 
 Happily written during a four hour hack in my
 [apt](http://starksignal.se/wp-content/uploads/2012/01/office-chamonix.jpg) in Chamonix, France.
+
+## Changelog
+
+### 2013-02-15
+
+* [Jellyfrog](https://github.com/Jellyfrog) contributes with fixes
+parameter bugs.
+* Better error handling solving [Issue
+1](https://github.com/arnklint/node-prowl/issues/1)
