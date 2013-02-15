@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "should": "0.6.1",
-    "mocha": "0.11.0"
+    "mocha": "1.8.1"
   },
   "repository" : {
     "type" : "git",
