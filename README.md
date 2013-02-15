@@ -70,7 +70,7 @@ Happily written during a four hour hack in my
 
 ## Changelog
 
-### 2013-02-15
+### 2013-02-15 - version 0.1.6
 
 * [Jellyfrog](https://github.com/Jellyfrog) contributes with fixes
 parameter bugs.
