@@ -69,6 +69,9 @@ Happily written during a four hour hack in my
 [apt](http://starksignal.se/wp-content/uploads/2012/01/office-chamonix.jpg) in Chamonix, France.
 
 ## Changelog
+### 2013-05-03
+
+* [mrose17](https://github.com/mrose17) contributes with error handling fix
 
 ### 2013-02-15 - version 0.1.6
 
