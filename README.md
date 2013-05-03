@@ -21,6 +21,8 @@ The API requires your API-key, which could be found or created on the
 Initialize it with your key and start pushing!
 
 ```javascript
+var Prowl = require('node-prowl');
+
 var prowl = new Prowl('MY-API-KEY');
 ```
 
