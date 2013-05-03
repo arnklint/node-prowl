@@ -5,7 +5,7 @@
   "tags": ["prowl", "api", "push", "wrapper", "client", "iphone", "ios", "ipod", "ipad", "ipod touch"],
   "private": false,
   "author": "Jonas Arnklint <jonas.arnklint@revrise.com> (http://arnklint.com)",
-  "contributors": [ "Jellyfrog (https://github.com/Jellyfrog)" ],
+  "contributors": [ "Jellyfrog (https://github.com/Jellyfrog)", "mrose17 (https://github.com/mrose17)" ],
   "engines": {
     "node": ">= 0.4.10"
   },
