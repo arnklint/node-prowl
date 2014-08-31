@@ -71,6 +71,11 @@ Happily written during a four hour hack in my
 [apt](http://starksignal.se/wp-content/uploads/2012/01/office-chamonix.jpg) in Chamonix, France.
 
 ## Changelog
+
+### 2014-08-31
+
+* [paton](https://github.com/paton) contributes with callback fix
+
 ### 2013-05-03
 
 * [mrose17](https://github.com/mrose17) contributes with error handling fix
