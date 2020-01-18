@@ -5,24 +5,28 @@
   "tags": ["prowl", "api", "push", "wrapper", "client", "iphone", "ios", "ipod", "ipad", "ipod touch"],
   "private": false,
   "author": "Jonas Arnklint <jonas.arnklint@revrise.com> (http://arnklint.com)",
-  "contributors": [ "Jellyfrog (https://github.com/Jellyfrog)", "mrose17 (https://github.com/mrose17)" ],
+  "contributors": [
+    "Jellyfrog (https://github.com/Jellyfrog)",
+    "mrose17 (https://github.com/mrose17)",
+    "dxdc (https://github.com/dxdc)"
+  ],
   "engines": {
     "node": ">= 0.4.10"
   },
   "dependencies": {
-    "request": "2.9.202",
-    "xml2js": "0.1.13"
+    "request": "2.88.0",
+    "xml2js": "0.4.23"
   },
   "devDependencies": {
-    "should": "1.2.2",
-    "mocha": "1.8.1"
+    "mocha": "7.0.0",
+    "should": "^13.2.3"
   },
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/arnklint/node-prowl.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arnklint/node-prowl.git"
   },
-  "bugs" : {
-    "url" : "https://github.com/arnklint/node-prowl/issues"
+  "bugs": {
+    "url": "https://github.com/arnklint/node-prowl/issues"
   },
   "main": "./lib/prowl"
 }
