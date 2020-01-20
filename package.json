@@ -1,8 +1,19 @@
 {
   "name": "node-prowl",
   "description": "Node.js API for prowl, allowing to send PUSH notifications to your iPhone!",
-  "version": "0.1.7",
-  "tags": ["prowl", "api", "push", "wrapper", "client", "iphone", "ios", "ipod", "ipad", "ipod touch"],
+  "version": "0.1.8",
+  "tags": [
+    "prowl",
+    "api",
+    "push",
+    "wrapper",
+    "client",
+    "iphone",
+    "ios",
+    "ipod",
+    "ipad",
+    "ipod touch"
+  ],
   "private": false,
   "author": "Jonas Arnklint <jonas.arnklint@revrise.com> (http://arnklint.com)",
   "contributors": [
@@ -18,7 +29,7 @@
     "xml2js": "0.4.23"
   },
   "devDependencies": {
-    "mocha": "7.0.0",
+    "mocha": "^7.0.0",
     "should": "^13.2.3"
   },
   "repository": {
