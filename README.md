@@ -72,6 +72,10 @@ Happily written during a four hour hack in my
 
 ## Changelog
 
+### 2020-01-20
+
+* [dxdc](https://github.com/dxdc) contributes with updated tests and fixed response errors
+
 ### 2014-08-31
 
 * [paton](https://github.com/paton) contributes with callback fix
